@@ -1,6 +1,6 @@
-#AI-Based Resume Screening System
+# AI-Based Resume Screening System
 
-##📌 Overview
+## 📌 Overview
 
 This project is an AI-powered Resume Screening System that helps filter and rank resumes based on job descriptions using Natural Language Processing (NLP) and Machine Learning. The system consists of:
 
@@ -10,9 +10,9 @@ Backend: Built with Node.js and Express.js for API handling.
 
 Frontend: A React-based user interface for interaction.
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-###🔹 AI Model
+### 🔹 AI Model
 
 Python
 
@@ -24,7 +24,7 @@ Scikit-Learn
 
 OpenAI GPT (optional for advanced screening)
 
-###🔹 Backend
+### 🔹 Backend
 
 Node.js
 
@@ -32,15 +32,14 @@ Express.js
 
 MySQL/MongoDB (for storing resumes and results)
 
-###🔹 Frontend
+### 🔹 Frontend
 
 React.js / Next.js
 
 Tailwind CSS
 
-##📂 Project Structure
+## 📂 Project Structure
 ```plaintext
-
 AI-Based-Resume-Screening-System/
 │── ai_model/               # AI model scripts (Python)
 │── backend/                # Backend (Node.js + Express)
@@ -49,49 +48,46 @@ AI-Based-Resume-Screening-System/
 │── README.md               # Documentation
 │── requirements.txt        # Python dependencies
 │── package.json            # Node.js dependencies
-
-🚀 Getting Started
+```
+## 🚀 Getting Started
 
 🔹 1. Clone the Repository
-
-git clone https://github.com/AbhishekBisht404/ai-resume-screening.git
+```bash
+git clone https://github.com/AbhishekBisht404-username/ai-resume-screening.git
 cd ai-resume-screening
-
+```
 🔹 2. Setting up the AI Model
-
+```bash
 cd ai_model
 python -m venv .venv
 source .venv/bin/activate  # (For macOS/Linux)
 .venv\Scripts\activate     # (For Windows)
 pip install -r requirements.txt
-
+```
 Run the AI model:
-
+```bash
 uvicorn main:app --reload
-
+```
 🔹 3. Setting up the Backend
-
+```bash
 cd backend
 npm install
 npm start
-
+```
 🔹 4. Setting up the Frontend
-
+```bash
 cd frontend
 npm install
 npm run dev
-
-📜 Features
+```
+## 📜 Features
 
 ✔️ Resume parsing & keyword extraction
 ✔️ Job description matching
 ✔️ Candidate ranking based on AI
 ✔️ Web dashboard for recruiters
 
-📌 TODO
-
-
-
+## 📌 TODO
 🛡️ Security & Best Practices
 
 Use .env for secrets & API keys.
@@ -100,14 +96,14 @@ Enable GitHub branch protection.
 
 Keep dependencies updated.
 
-📩 Contributing
+## 📩 Contributing
 
 Want to improve this project? Feel free to fork & contribute!
-
+```bash
 git checkout -b feature-branch
 git commit -m "Your Changes"
 git push origin feature-branch
-
-📄 License
+```
+## 📄 License
 
 This project is licensed under the MIT License. 
