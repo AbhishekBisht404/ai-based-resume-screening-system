@@ -1,0 +1,19 @@
+# Python (AI Model)
+__pycache__/
+*.pyc
+venv/
+*.h5  # Ignore large AI model files
+*.pt
+*.pkl
+dataset/
+
+# Node.js (Backend)
+node_modules/
+.env
+*.log
+
+# React/Next.js (Frontend)
+node_modules/
+.next/
+.env
+ 
