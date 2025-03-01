@@ -1,6 +1,6 @@
-AI-Based Resume Screening System
+#AI-Based Resume Screening System
 
-📌 Overview
+##📌 Overview
 
 This project is an AI-powered Resume Screening System that helps filter and rank resumes based on job descriptions using Natural Language Processing (NLP) and Machine Learning. The system consists of:
 
@@ -10,9 +10,9 @@ Backend: Built with Node.js and Express.js for API handling.
 
 Frontend: A React-based user interface for interaction.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
-🔹 AI Model
+###🔹 AI Model
 
 Python
 
@@ -24,7 +24,7 @@ Scikit-Learn
 
 OpenAI GPT (optional for advanced screening)
 
-🔹 Backend
+###🔹 Backend
 
 Node.js
 
@@ -32,13 +32,14 @@ Express.js
 
 MySQL/MongoDB (for storing resumes and results)
 
-🔹 Frontend
+###🔹 Frontend
 
 React.js / Next.js
 
 Tailwind CSS
 
-📂 Project Structure
+##📂 Project Structure
+```plaintext
 
 AI-Based-Resume-Screening-System/
 │── ai_model/               # AI model scripts (Python)
@@ -53,7 +54,7 @@ AI-Based-Resume-Screening-System/
 
 🔹 1. Clone the Repository
 
-git clone https://github.com/your-username/ai-resume-screening.git
+git clone https://github.com/AbhishekBisht404/ai-resume-screening.git
 cd ai-resume-screening
 
 🔹 2. Setting up the AI Model
