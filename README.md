@@ -41,7 +41,6 @@ Tailwind CSS
 ## 📂 Project Structure
 ```plaintext
 AI-Based-Resume-Screening-System/
-│── ai_model/               # AI model scripts (Python)
 │── backend/                # Backend (Node.js + Express)
 │── frontend/               # Frontend (React/Next.js)
 │── .gitignore              # Ignored files
@@ -56,25 +55,13 @@ AI-Based-Resume-Screening-System/
 git clone https://github.com/AbhishekBisht404-username/ai-resume-screening.git
 cd ai-resume-screening
 ```
-🔹 2. Setting up the AI Model
-```bash
-cd ai_model
-python -m venv .venv
-source .venv/bin/activate  # (For macOS/Linux)
-.venv\Scripts\activate     # (For Windows)
-pip install -r requirements.txt
-```
-Run the AI model:
-```bash
-uvicorn main:app --reload
-```
-🔹 3. Setting up the Backend
+🔹 2. Setting up the Backend
 ```bash
 cd backend
 npm install
 npm start
 ```
-🔹 4. Setting up the Frontend
+🔹 3. Setting up the Frontend
 ```bash
 cd frontend
 npm install
