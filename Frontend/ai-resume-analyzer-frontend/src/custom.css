@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #f0f4ff, #e6f0ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    box-shadow: 0 4px 8px rgba(99, 102, 241, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+    box-shadow: 0 6px 12px rgba(99, 102, 241, 0.5);
+}
+
+/* Style paragraphs inside results */
+.resume-result p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style lists with custom markers */
+.resume-result ul {
+    padding-left: 1.25rem;
+}
+
+.resume-result li {
+    margin-bottom: 0.5rem;
+}
+
+/* Fix sticky header z-index and shadow */
+header {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}

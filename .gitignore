@@ -1,0 +1,26 @@
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+site-packages/
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.env
+
+# General
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Ignore folders
+Frontend/node_modules/
+Backend/__pycache__/
+Backend/venv/
+ 
