@@ -22,7 +22,7 @@ A smart resume screening system that leverages Natural Language Processing (NLP)
 - ✅ Suggestions and detailed feedback report generation  
 - ✅ Responsive frontend with modern UI (React + Vite)  
 
-## 📁 Project Structure (Backend)
+## 📁 Project Structure
 
 ```
 ├── Backend/
@@ -67,9 +67,9 @@ A smart resume screening system that leverages Natural Language Processing (NLP)
 ```bash
 git clone https://github.com/AbhishekBisht404/ai-based-resume-screening-system.git
 cd ai-based-resume-screening-system
+```
 
 ### 🔧 Backend (FastAPI)
-```
 ```bash
 cd Backend
 python -m venv venv
