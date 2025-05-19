@@ -6,7 +6,6 @@ __pycache__/
 venv/
 site-packages/
 *.sqlite3
-
 # Node / Frontend
 node_modules/
 dist/
@@ -23,4 +22,5 @@ build/
 Frontend/node_modules/
 Backend/__pycache__/
 Backend/venv/
- 
+Backend/models/custom_ner_model/vocab/
+
